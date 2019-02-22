@@ -1,4 +1,4 @@
-var DOMAIN = 'http://www.shaodongweb.top:6600'
+var DOMAIN = 'http://inpainting.shaodongweb.top:6600'
 
 window.onload = function () {
   
