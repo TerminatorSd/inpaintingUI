@@ -98,7 +98,7 @@ function setCanvasSizeAndListener(file) {
         if(res.code == 0) {
           if(resImg.resize) {
             console.log('resize');
-            // 上传图片
+            // 上传图片，第一种情况，resize 过的
             $.ajax({
               type: 'post',
               url: DOMAIN + '/img/upload' ,
