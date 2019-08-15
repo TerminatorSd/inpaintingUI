@@ -103,7 +103,7 @@ function setCanvasSizeAndListener(file) {
               type: 'post',
               url: DOMAIN + '/img/upload' ,
               data: {
-                name: 'input.jpg',
+                name: file.name,
                 base64: imgDom.src,
                 type: 'input'
               },
@@ -126,7 +126,7 @@ function setCanvasSizeAndListener(file) {
                 type: 'post',
                 url: DOMAIN + '/img/upload' ,
                 data: {
-                  name: 'input.jpg',
+                  name: 'input' + file.name.split('.')[1],
                   base64: base64,
                   type: 'input'
                 },
